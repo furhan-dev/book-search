@@ -32,7 +32,10 @@ mutation saveBook($book: BookInput!) {
     _id
     username
     email 
-    savedBooks { bookId, title }
+    savedBooks {
+      bookId
+      title
+    }
   }
 }
 `;
@@ -43,7 +46,10 @@ mutation deleteBook($book: BookInput!) {
     _id
     username
     email 
-    savedBooks { bookId, title }
+    savedBooks {
+      bookId
+      title
+    }
   }
 }
 `;
