@@ -23,7 +23,6 @@ const resolvers = {
 
   Mutation: {
     createUser: async (parent, { username, email, password }) => {
-      age = parseInt(age);
       const user = await User.create({ username, email, password });
       const token = signToken(user);
 
