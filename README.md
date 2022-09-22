@@ -6,7 +6,7 @@
 
 A book search engine that fetches data from the Google Books API. The app is written with technologies in the MERN stack, including, Apollo, GraphQL, and JWT for authentication.
 
-The deployed app can be found ![here](https://google.com)
+The deployed app can be found ![here](https://shielded-brushlands-54074.herokuapp.com)
 
 ## Table of Contents
 
