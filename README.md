@@ -22,10 +22,11 @@ The deployed app can be found [here](https://shielded-brushlands-54074.herokuapp
 touch .env
 
 # open the .env file and add your db credentials
-# be sure to include the DB_NAME='ecommerce_db'
+# be sure to include the DB_NAME='googlebooks'
 DB_USER='root'
 DB_PW='root'
-DB_NAME='ecommerce_db'
+DB_NAME='googlebooks'
+```
 
 # install all dependencies
 npm i
